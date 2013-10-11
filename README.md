@@ -1,6 +1,8 @@
-rapidcatch
+Rapidcatch eBay sniper  Chrome extension
 ==========
 
-Google Chrome extension for Rapidcatch eBay sniper
+Chrome extension for Rapidcatch eBay sniper.
 
 Install it via Chrome Webstore: https://chrome.google.com/webstore/detail/lipfgikjgiomnaimfagefeljjimbhlha
+
+The Rapidcatch sniper page: http://rapidcatch.com/
