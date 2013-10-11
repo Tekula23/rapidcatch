@@ -1,0 +1,14 @@
+﻿{
+  "chrome_extension_description": {
+    "message": "Плагин для eBay снайпера Rapidcatch"
+  },
+  "extname": {
+    "message": "Плагин для eBay снайпера Rapidcatch"
+  },
+  "add":{
+    "message": "Добавить в снайпер"
+  },
+  "lang": {
+    "message": "ru"
+  }
+}

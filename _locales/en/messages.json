@@ -1,0 +1,14 @@
+{
+  "chrome_extension_description": {
+    "message": "Rapidcatch eBay sniper plugin"
+  },
+  "extname": {
+    "message": "Rapidcatch eBay sniper plugin"
+  },
+  "add":{
+    "message": "Add to sniper"
+  },
+  "lang": {
+    "message": "en"
+  }
+}
