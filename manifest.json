@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "__MSG_extname__",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "__MSG_chrome_extension_description__",
   "author": "Andriy Borodiychuk",
   "homepage_url": "http://rapidcatch.com/",
@@ -13,6 +13,39 @@
   "background": {
     "scripts": ["background.js"]
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.ebay.com.au/*",
+        "*://www.ebay.at/*",
+        "*://www.ebay.be/*",
+        "*://www.ebay.co.uk/*",
+        "*://www.ebay.vn/*",
+        "*://www.ebay.de/*",
+        "*://www.ebay.com.hk/*",
+        "*://www.ebay.co.il/*",
+        "*://www.ebay.in/*",
+        "*://www.ebay.ie/*",
+        "*://www.ebay.es/*",
+        "*://www.ebay.it/*",
+        "*://www.ebay.ca/*",
+        "*://www.ebay.cn/*",
+        "*://www.ebay.com.my/*",
+        "*://www.ebay.nl/*",
+        "*://www.ebay.co.nz/*",
+        "*://www.ebay.ae/*",
+        "*://www.ebay.pl/*",
+        "*://www.ebay.com.sg/*",
+        "*://www.ebay.com/*",
+        "*://www.ebay.co.th/*",
+        "*://www.ebay.ph/*",
+        "*://www.ebay.fr/*",
+        "*://www.ebay.ch/*",
+        "*://www.ebay.co.za/*"
+      ],
+      "js": ["jquery.js", "core.js"]
+    }
+  ],
   "permissions": [
     "tabs",
     "*://www.ebay.com.au/*",
