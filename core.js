@@ -7,7 +7,7 @@
 
   chrome.extension.sendRequest({}, function(response) {});
 
-  var itemId = new RegExp('[0-9]{5,}', 'ig').exec(document.location);
+  var itemId = new RegExp('[0-9]{12}', 'ig').exec(document.location);
 
   $('<div />').addClass('is').css({ overflow: 'hidden', marginBottom: '15px' }).insertBefore($('.is')).html('                       \
     <form action="http://rapidcatch.com/auctions/add/" method="post" id="rapidcatchForm">                                           \
