@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        width: 230px;
+      }
+      .wrapped {
+        margin: 20px 0px;
+        height: 70px;
+      }
+      input, button {
+        line-height: 2em;
+        border-radius: 3px;
+        border: 1px solid #3498db;
+        background: none;
+        padding: 0px;
+        font-size: 1.05em;
+        width: 100%;
+        margin: 5px auto;
+        text-align: center;
+      }
+      #price {
+        color: #111;
+      }
+      #submit {
+        color: #3498db;
+        cursor: pointer;
+      }
+      #submit:hover {
+        background: #3498db;
+        color: white;
+      }
+      #about {
+        margin-top: 2em;
+        font-size: 0.65em;
+        text-align: right;
+      }
+      #about a, #about a:active {
+        text-decoration: none;
+        color: #3498db;
+      }
+      #about a:hover {
+        text-decoration: underline;
+      }
+      /* see http://tympanus.net/codrops/2012/11/14/creative-css-loading-animations/ */
+      .spinner {
+        font-size: 55px;
+        width: 1em;
+        height: 1em;
+        margin: 7px auto;
+        position: relative;
+        list-style: none;
+        border-radius: 50%;
+      }
+      .spinner li {
+        width: .2em;
+        height: .2em;
+        position: absolute;
+        border-radius: 50%;
+      }
+      .spinner li:nth-child(1) {
+        background: #3498db; /* Blue */
+        top: 0;
+        left: 50%;
+        margin-left: -.1em; /* Width/2 */
+        transform-origin: 50% 250%;
+        animation:
+            rota 1.13s linear infinite,
+            opa 3.67s ease-in-out infinite alternate;
+      }
+      .spinner li:nth-child(2) {
+        background: #FF003C; /* Red */
+        top: 50%;
+        right: 0;
+        margin-top: -.1em; /* Height/2 */
+        transform-origin: -150% 50%;
+        animation:
+            rota 1.86s linear infinite,
+            opa 4.29s ease-in-out infinite alternate;
+      }
+      .spinner li:nth-child(3) {
+        background: #FABE28; /* Yellow */
+        bottom: 0;
+        left: 50%;
+        margin-left: -.1em; /* Width/2 */
+        transform-origin: 50% -150%;
+        animation:
+            rota 1.45s linear infinite,
+            opa 5.12s ease-in-out infinite alternate;
+      }
+      .spinner li:nth-child(4) {
+        background: #88C100; /* Green */
+        top: 50%;
+        left: 0;
+        margin-top -.1em; /* Height/2 */
+        transform-origin: 250% 50%;
+        animation:
+            rota 1.72s linear infinite,
+            opa 5.25s ease-in-out infinite alternate;
+      }
+      @keyframes rota {
+        to { transform: rotate(360deg); }
+      }
+      @keyframes opa {
+        12.0% { opacity: 0.80; }
+        19.5% { opacity: 0.88; }
+        37.2% { opacity: 0.64; }
+        40.5% { opacity: 0.52; }
+        52.7% { opacity: 0.69; }
+        60.2% { opacity: 0.60; }
+        66.6% { opacity: 0.52; }
+        70.0% { opacity: 0.63; }
+        79.9% { opacity: 0.60; }
+        84.2% { opacity: 0.75; }
+        91.0% { opacity: 0.87; }
+      }
+      #message {
+        text-align: center;
+        margin: 20px 20px 0px;
+        color: #88C100;
+        font-size: 0.9em
+      }
+      #message.error {
+        color: #FF003C;
+      }
+    </style>
+    <script src="jquery.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <img src="logo.png" />
+    <form id="form" class="wrapped">
+      <input id="price" type="number" step="0.01" placeholder="0.00"/>
+      <button id="submit"></button>
+    </form>
+    <div id="spinner" class="wrapped">
+      <ul class="spinner"><li></li><li></li><li></li><li></li></ul>
+    </div>
+    <div id="message" class="wrapped"></div>
+    <div id="about">
+      <a href="http://rapidcatch.com" target="_blank" id="link"></a>
+    </div>
+
+  </body>
+</html>
+
+

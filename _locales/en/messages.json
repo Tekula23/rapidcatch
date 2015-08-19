@@ -1,0 +1,44 @@
+{
+  "chrome_extension_description": {
+    "message": "This extension allows to place bids into Rapidcatch.com auction sniper right from browser panel while viewing item page"
+  },
+  "extname": {
+    "message": "Rapidcatch sniper extension"
+  },
+  "place_bid":{
+    "message": "Place bid"
+  },
+  "about":{
+    "message": "What is that?"
+  },
+  "lang": {
+    "message": "en"
+  },
+  "request_status_success": {
+    "message": "Bid successfully placed!"
+  },
+  "request_status_not_activated_account": {
+    "message": "Account not activated! Use activation link from registration email first."
+  },
+  "request_status_not_credential": {
+    "message": "No credentials for this auction. Please add them on Settings page."
+  },
+  "request_status_not_premium": {
+    "message": "Only one bid per day allowed. Upgrade to a Premium plan for unlimited bidding."
+  },
+  "request_status_not_multi": {
+    "message": "Unable to combine bids from different auction platforms with selected plan. Upgrade to Premium Multi plan."
+  },
+  "request_status_invalid_item": {
+    "message": "Unknown item! Please check the URL."
+  },
+  "request_status_invalid_platform": {
+    "message": "Unknown auction! Please check the URL."
+  },
+  "request_status_cannot_bid_bin_only": {
+    "message": "Bidding on Buy It Now item is not possible."
+  },
+  "request_status_listing_was_ended": {
+    "message": "Unable to place bid! Either bidding has already finished, or it is a shop item."
+  }
+}

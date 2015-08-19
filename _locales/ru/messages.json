@@ -1,14 +1,44 @@
-﻿{
+{
   "chrome_extension_description": {
-    "message": "Плагин для eBay снайпера Rapidcatch"
+    "message": "Расширение позволяет добавить ставку в снайпер для аукционов Rapidcatch.com прямо со страницы лота"
   },
   "extname": {
-    "message": "Плагин для eBay снайпера Rapidcatch"
+    "message": "Расширение для снайпера Rapidcatch"
   },
-  "add":{
-    "message": "Добавить в снайпер"
+  "place_bid":{
+    "message": "Добавить ставку"
+  },
+  "about":{
+    "message": "Что это?"
   },
   "lang": {
     "message": "ru"
+  },
+  "request_status_success": {
+    "message": "Cтавка успешно добавлена!"
+  },
+  "request_status_not_activated_account": {
+    "message": "Учётная запись не активирована! Пожалуйста, перейдите по ссылка из письма, которое было отправлено на ваш email."
+  },
+  "request_status_not_credential": {
+    "message": "Нет данных для авторизации на этом аукционе. Пожалуйста, добавьте их в разделе Настройки."
+  },
+  "request_status_not_premium": {
+    "message": "Разрешена только одна ставка в день. Для неограниченного количества ставок оформите подписку."
+  },
+  "request_status_not_multi": {
+    "message": "С текущей подпиской нельзя комбинировать ставки на разных аукционах. Пожалуйста, оформите подписку типа Multi."
+  },
+  "request_status_invalid_item": {
+    "message": "Неизвестный лот. Пожалуйста, проверьте ссылку."
+  },
+  "request_status_invalid_platform": {
+    "message": "Неизвестный аукцион. Пожалуйста, проверьте URL."
+  },
+  "request_status_cannot_bid_bin_only": {
+    "message": "Совершать ставки на лоты только с ценой Buy It Now невозможно."
+  },
+  "request_status_listing_was_ended": {
+    "message": "Невозможно добавить ставку. Торги по этому лоту уже завершены или это лот из магазина."
   }
 }
