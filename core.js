@@ -10,7 +10,7 @@
   var itemId = new RegExp('[0-9]{12}', 'ig').exec(document.location);
 
   $('<div />').addClass('is').css({ overflow: 'hidden', marginBottom: '15px' }).insertBefore($('.is')).html('                       \
-    <form action="http://rapidcatch.com/auctions/add/" method="post" id="rapidcatchForm">                                           \
+    <form action="http://v2.rapidcatch.com/auctions/add/" method="post" id="rapidcatchForm">                                           \
       <div class="actPanel">                                                                                                        \
         <div class="u-cb spcr"></div>                                                                                               \
         <div class="u-cb">                                                                                                          \

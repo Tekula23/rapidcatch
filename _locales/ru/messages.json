@@ -1,9 +1,9 @@
 ﻿{
   "chrome_extension_description": {
-    "message": "Плагин для eBay снайпера Rapidcatch"
+    "message": "Плагин к прошлой версии снайпера Rapidcatch"
   },
   "extname": {
-    "message": "Плагин для eBay снайпера Rapidcatch"
+    "message": "Legacy Rapidcatch sniper extension"
   },
   "add":{
     "message": "Добавить в снайпер"
