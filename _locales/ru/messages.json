@@ -1,9 +1,9 @@
 {
   "chrome_extension_description": {
-    "message": "Расширение позволяет добавить ставку в снайпер для аукционов Rapidcatch.com прямо со страницы лота"
+    "message": "Расширение позволяет сделать ставку с помощью снайпера для аукционов Rapidcatch.com на eBay, Delcampe, Allegro, Aukro, Meshok.ru, Ay.by"
   },
   "extname": {
-    "message": "Расширение для снайпера Rapidcatch"
+    "message": "Rapidcatch eBay auction sniper"
   },
   "place_bid":{
     "message": "Добавить ставку"

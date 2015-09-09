@@ -1,9 +1,9 @@
 {
   "chrome_extension_description": {
-    "message": "This extension allows to place bids into Rapidcatch.com auction sniper right from browser panel while viewing item page"
+    "message": "This extension allows to place bids via Rapidcatch.com auction sniper right at eBay, Delcampe, Allegro pages from your browser"
   },
   "extname": {
-    "message": "Rapidcatch sniper extension"
+    "message": "Rapidcatch eBay auction sniper"
   },
   "place_bid":{
     "message": "Place bid"
