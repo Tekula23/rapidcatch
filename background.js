@@ -22,7 +22,7 @@
   var tabsUpdateCallback = function (tabId, changeInfo, tab) {
     chrome.tabs.getSelected(null, function (tab) {
       activeTabUrl = tab.url;
-      if(/[^\w](ebay\.|aukro\.|allegro\.|delcampe\.net|meshok\.net|newauction\.ru|newmolot\.ru|ay\.by|ebid\.net).+\d{5,15}/i.test(tab.url)) {
+      if(/[^\w](ebay\.|aukro\.|allegro\.|delcampe\.net|meshok\.net|newauction\.|newmolot\.ru|ay\.by|ebid\.net|skylots\.org|auction\.violity\.com).+\d{5,15}/i.test(tab.url)) {
         chrome.browserAction.enable();
         chrome.browserAction.setIcon({path: "icon.active.16.png"});
       } else {
